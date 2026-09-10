@@ -1,4 +1,20 @@
-# Machine Learning Repository
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
+  </a>
+
+  <a href="https://jupyter.org/">
+    <img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg" alt="Jupyter">
+  </a>
+  
+  <a href="#">
+    <img src="https://img.shields.io/badge/Deep%20Learning-L--Layer%20Model-red.svg" alt="Deep Learning">
+  </a>
+
+  <a href="#">
+    <img src="https://img.shields.io/badge/Status-On going-success.svg" alt="Status">
+  </a>
+
+<h1 align="center">Machine Learning </h1>
 
 ## Introduction
 
@@ -10,16 +26,31 @@ Currently, the repository includes the following implementations:
 
 ### 1. Basic Model
 
+[Basic Model](Basic_model/basic_model.ipynb)
+
 This is a fundamental linear/logistic classification model. It serves as the baseline for binary classification tasks. The model is built using basic gradient descent to optimize the cost function. It is highly efficient and provides a strong mathematical foundation for understanding weight updates and forward propagation.
 
 ### 2. Neural Network Model
 
+[Nerual Network Model](Nerural_Network/Neural_Network.ipynb)
+
 A shallow Neural Network architecture designed for more complex, non-linear tabular data classification.
 
-- Architecture: 1 hidden layer with customizable node counts.
-- Activation Functions: Tanh for the hidden layer (providing zero-centered outputs and better gradient flow) and Sigmoid for the output layer.
-- Implementation: Features fully vectorized forward and backward propagation matrices using NumPy.
-- Application: Successfully tested on tabular datasets (such as Heart Disease classification) achieving high accuracy on both training and testing sets.
+- **Architecture**: 1 hidden layer with customizable node counts.
+- **Activation Functions**: Tanh for the hidden layer and Sigmoid for the output layer.
+- **Implementation**: Features fully vectorized forward and backward propagation matrices using NumPy.
+- **Application**: Successfully tested on tabular datasets achieving high accuracy on both training and testing sets.
+
+### 3. Deep Neural Network Model
+
+[Deep Neural Network Model](Deep_Nerual_Network/Deep_Neural_Network.ipynb)
+
+This model features a higher level of complexity due to its deep architecture. The inclusion of multiple hidden layers significantly enhances its prediction accuracy while maintaining computational efficiency.
+
+- **Architecture**: An L-layer neural network with customizable node counts per layer.
+- **Activation Functions**: Sigmoid and ReLU (fully supporting both forward and backward propagation).
+- **Implementation**: Vectorized linear forward and backward computations.
+- **Application**: Evaluated on a dog and cat image dataset, where the model successfully classifies and distinguishes between the two categories.
 
 <h3>Contact Me</h3>
 <p>
