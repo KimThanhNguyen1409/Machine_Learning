@@ -1,20 +1,8 @@
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python">
-  </a>
-
-  <a href="https://jupyter.org/">
-    <img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg" alt="Jupyter">
-  </a>
-  
-  <a href="#">
-    <img src="https://img.shields.io/badge/Deep%20Learning-L--Layer%20Model-red.svg" alt="Deep Learning">
-  </a>
-
-  <a href="#">
-    <img src="https://img.shields.io/badge/Status-On going-success.svg" alt="Status">
-  </a>
-
 <h1 align="center">Machine Learning </h1>
+
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python"></a> <a href="https://jupyter.org/"><img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg" alt="Jupyter"></a><a href="#"><img src="https://img.shields.io/badge/Status-On%20going-brightgreen.svg" alt="Status"></a>
+</p>
 
 ## Introduction
 
