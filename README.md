@@ -29,9 +29,10 @@ A shallow Neural Network architecture designed for more complex, non-linear tabu
 - **Implementation**: Features fully vectorized forward and backward propagation matrices using NumPy.
 - **Application**: Successfully tested on tabular datasets achieving high accuracy on both training and testing sets.
 
-### 3. Deep Neural Network Model
+### 3. Deep Neural Network Model v1 & v2
 
 [Deep Neural Network Model](Deep_Nerual_Network/Deep_Neural_Network.ipynb)
+[Deep Neural Network Model-v2](Deep_Nerual_Network_v2/Deep_Neural_Network_v2.ipynb)
 
 This model features a higher level of complexity due to its deep architecture. The inclusion of multiple hidden layers significantly enhances its prediction accuracy while maintaining computational efficiency.
 
@@ -39,6 +40,12 @@ This model features a higher level of complexity due to its deep architecture. T
 - **Activation Functions**: Sigmoid and ReLU (fully supporting both forward and backward propagation).
 - **Implementation**: Vectorized linear forward and backward computations.
 - **Application**: Evaluated on a dog and cat image dataset, where the model successfully classifies and distinguishes between the two categories.
+
+About v2, this note book brings more significant features to Deep Neural Network including:
+
+- **Initialize parameters**: There are many new initialize methods such as `initialize_parameters_random`, `initialize_parameters_he`, `initialize_velocity`, `initialize_adam`. These new methods can increase the model in many diffirent ways.
+- **Implementation**: `forward_propagation_with_dropout` and `backward_propagation_with_dropout` are new way to implement propagation for the model
+- **Update Parameters**: In these new model, there are many ways to update hyper parameters to improve model's performace
 
 <h3>Contact Me</h3>
 <p>
