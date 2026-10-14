@@ -47,6 +47,17 @@ About v2, this note book brings more significant features to Deep Neural Network
 - **Implementation**: `forward_propagation_with_dropout` and `backward_propagation_with_dropout` are new way to implement propagation for the model
 - **Update Parameters**: In these new model, there are many ways to update hyper parameters to improve model's performace
 
+### 4. ECG Classification
+
+[ECG Classification](ECG_EEG/ECG_EEG.ipynb)
+
+A one-dimensional convolutional neural network that classifies ECG heartbeat segments using annotated signal recordings.
+
+- **Preprocessing**: Removes power-line interference and noise with notch and band-pass filters, then detects R-peaks and extracts normalized heartbeat segments.
+- **Classes**: Classifies five heartbeat annotation symbols: `N`, `L`, `R`, `V`, and `/`.
+- **Models**: Implements and trains CNN classifiers with both PyTorch and TensorFlow.
+- **Evaluation**: The TensorFlow model achieved 99.33% test accuracy after 20 epochs.
+
 <h3>Contact Me</h3>
 <p>
   <a href="https://github.com/KimThanhNguyen1409">
